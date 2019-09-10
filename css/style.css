@@ -207,34 +207,116 @@ header ul.is-sticky li a.active {
 }
 /* end: hero section styles */
 
-/*Stard: how Is works Styles*/
+/* start: how it works styles */
 #how-it-works {
-	padding: 3rem 0;
-	background: #f8f9fa;
-	text-align: center;
+    padding: 3rem 0;
+    background: #f8f9fa;
+    text-align: center;
 }
 
-#how-it-works h2{
-	margin-bottom: 3rem;
+#how-it-works h2 {
+    margin-bottom: 3rem;
 }
 
-#how-it-works .flex > div{
-	width: 30%;
+#how-it-works .flex > div {
+    width: 30%;
 }
 
-#how-it-works h4{
-	color: #343a40;
-	margin-top: 1rem;
+#how-it-works h4 {
+    color: #343a40;
+    margin-top: 1rem;
 }
 
-#how-it-works span.fas{
-	color: #f69314;
-	font-size: 35px;
+#how-it-works span.fas {
+    color: #f69314;
+    font-size: 35px;
 }
-/*End: how Is works Styles*/
+/* end: how it works styles */
 
-/*Start: properties Styles*/
-#properties{
-	
+/* start: properties styles */
+#properties {
+    margin: 4rem 0 8rem;
+    position: relative;
 }
-/*End: properties Styles*/
+
+#properties h2 {
+    margin-bottom: 3rem;
+}
+
+#properties .container {
+    position: relative;
+}
+
+#properties .container:before {
+    content: "/";
+    position: absolute;
+    right: 80px;
+    top: 18px;
+    color: #999;
+}
+
+#properties-slider a.slick-arrow {
+    color: #000;
+    position: absolute;
+    top: -78px;
+    right: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    text-decoration: none;
+}
+
+#properties-slider a.slick-prev {
+    right: 80px;
+}
+
+#properties-slider .slick-slide {
+    padding: 0 15px;
+}
+
+#properties-slider img {
+    width: 100%;
+    display: block;
+}
+
+#properties-slider .property-details {
+    padding: 1rem;
+}
+
+#properties-slider .price {
+    font-size: 1.2rem;
+    color: #343a40;
+    font-weight: 800;
+    margin: 0 0 0.5rem 0;
+}
+
+#properties-slider .property-details span {
+    font-size: 0.8rem;
+    padding-right: 15px;
+}
+
+#properties-slider .property-details span.baths {
+    padding-left: 10px;
+}
+
+#properties-slider .property-details span.sqft {
+    padding-right: 0;
+    padding-left: 10px;
+}
+
+#properties-slider .property-details span.beds,
+#properties-slider .property-details span.baths {
+    border-right: 1px solid #888;
+}
+
+#properties-slider .property-details address {
+    font-size: 0.8rem;
+    font-style: normal;
+    margin-top: 0.5rem;
+}
+
+#properties button.rounded {
+    display: block;
+    margin: 2rem auto 0;
+    width: 350px;
+}
+/* end: properties styles */
