@@ -206,3 +206,35 @@ header ul.is-sticky li a.active {
     font-size: 1rem;
 }
 /* end: hero section styles */
+
+/*Stard: how Is works Styles*/
+#how-it-works {
+	padding: 3rem 0;
+	background: #f8f9fa;
+	text-align: center;
+}
+
+#how-it-works h2{
+	margin-bottom: 3rem;
+}
+
+#how-it-works .flex > div{
+	width: 30%;
+}
+
+#how-it-works h4{
+	color: #343a40;
+	margin-top: 1rem;
+}
+
+#how-it-works span.fas{
+	color: #f69314;
+	font-size: 35px;
+}
+/*End: how Is works Styles*/
+
+/*Start: properties Styles*/
+#properties{
+	
+}
+/*End: properties Styles*/
